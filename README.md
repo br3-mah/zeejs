@@ -1,12 +1,10 @@
-Here’s a well-structured and visually appealing `README.md` for **ZeeJS**, presenting it as the **next big thing** in multi-middleware, high-speed, scalable development. 🚀  
 
----
 
 # **ZeeJS – The Future of High-Speed Web Development** ⚡  
 
 ### **A next-generation framework combining JavaScript, Java, and Python for ultra-fast, scalable, and network-efficient applications.**  
 
-![ZeeJS Banner](https://via.placeholder.com/1000x300?text=ZeeJS+%7C+Next-Gen+Web+Framework)  
+![ZeeJS Banner](https://st5.depositphotos.com/54433710/71747/v/450/depositphotos_717476526-stock-illustration-planet-earth-icon-flat-design.jpg)  
 
 ---
 
@@ -15,7 +13,7 @@ Here’s a well-structured and visually appealing `README.md` for **ZeeJS**, pre
 **ZeeJS** is an innovative, high-performance framework built for:  
 ✔ **Ultra-fast web applications** 🏎  
 ✔ **Multi-middleware architecture** for seamless API handling 🔄  
-✔ **Full-stack interoperability** between **JavaScript, Java, and Python** 🧩  
+✔ **Full-stack interoperability** between **PHP, JavaScript, Java, and Python** 🧩  
 ✔ **Optimized for large-scale projects** with **low bandwidth usage** 📡  
 ✔ **Network-strong packet transits** for **faster response times** 📶  
 
@@ -29,6 +27,7 @@ Here’s a well-structured and visually appealing `README.md` for **ZeeJS**, pre
 - JavaScript for front-end speed 🏆  
 - Java for enterprise-grade processing 💪  
 - Python for AI/ML and data-driven backend 📊  
+- PHP for Database backend 📊  
 
 ### 🔥 **Super Scalability**  
 Built for large applications with:  
@@ -49,14 +48,22 @@ Built for large applications with:
 
 ## **📦 Installation**  
 
-### **Using ZeeCLI (Recommended)**
+### **1️⃣ Install ZeeJS CLI (Recommended)**
 ```sh
-npx zee-cli install zeejs
+npm install -g zee-cli
+```
+or use `npx` (without global install):  
+```sh
+npx zee-cli create myProject
 ```
 
-### **Manual Installation**
+### **2️⃣ Install ZeeJS Manually**
 ```sh
 npm install zeejs --save
+```
+or  
+```sh
+yarn add zeejs
 ```
 
 ---
@@ -69,17 +76,22 @@ zee create myProject
 cd myProject
 ```
 
-### **2️⃣ Run the Development Server**
+### **2️⃣ Install Dependencies**
+```sh
+zee install
+```
+
+### **3️⃣ Start the Development Server**
 ```sh
 zee start
 ```
 
-### **3️⃣ Generate an API Route**
+### **4️⃣ Generate an API Route**
 ```sh
 zee generate api users
 ```
 
-### **4️⃣ Deploy**
+### **5️⃣ Deploy the Application**
 ```sh
 zee deploy
 ```
@@ -164,3 +176,12 @@ ZeeJS is open-source and welcomes contributions.
 
 ### **🚀 ZeeJS – The Next Big Thing in Web Development!**  
 
+---
+
+### **🔹 Updates & Improvements:**
+✅ **More structured installation steps**  
+✅ **More CLI commands for easier use**  
+✅ **More precise ZeeJS deployment steps**  
+✅ **Clearer usage for different programming languages**  
+
+Let me know if you need any further tweaks! 🚀
