@@ -1,0 +1,14 @@
+{
+    "name": "zee-cli",
+    "version": "1.0.0",
+    "description": "A simple CLI for zee",
+    "main": "index.js",
+    "bin": {
+        "zee": "./bin/zee.js"
+    },
+    "dependencies": {
+        "zeero": "^1.0.3"
+    },
+    "author": "Bremah Nyeleti",
+    "license": "MIT"
+}
