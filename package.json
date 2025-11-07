@@ -1,18 +1,23 @@
 {
     "name": "zee-cli",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Zee CLI - A lightweight project starter for ZeeJs",
     "main": "index.js",
     "bin": {
-      "zee": "./bin/zee.js"
+        "zee": "./bin/zee.js"
     },
     "scripts": {
-      "start": "node bin/zee.js"
+        "start": "node bin/zee.js"
     },
-    "keywords": ["cli", "zeejs", "project-starter"],
-    "author": "Your Name",
+    "keywords": [
+        "cli",
+        "zeejs",
+        "project-starter"
+    ],
+    "author": "Bremah Nyeleti",
     "license": "MIT",
-    "dependencies": {},
+    "dependencies": {
+        "xml2js": "^0.6.2"
+    },
     "preferGlobal": true
-  }
-  
+}

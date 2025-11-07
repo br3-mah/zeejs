@@ -1,0 +1,16 @@
+zee-cli/
+│── bin/
+│   ├── struct.js          # Defines project structure
+│   ├── zee.js             # Main executable CLI script
+│── commands/              # CLI commands (NEW)
+│   ├── createProject.js   # Handles project creation
+│   ├── installPackage.js  # Handles package installation
+│   ├── installWeb.js      # Handles php/composer & mysql kit package (stack) installation
+│── utils/                 # Utility functions (NEW)
+│   ├── fileOperations.js  # File handling utilities
+│   ├── detectPackageManager.js        # Detects package manager
+│── templates/
+│   ├── main.zee           # A sample program in your language
+│── package.json           # Metadata and dependencies
+│── index.js               # Main entry file
+│── README.md              # Documentation
